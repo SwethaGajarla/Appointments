@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.appointments-item-card {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #b5b7c4;
+  min-width: 300px;
+  border-radius: 10px;
+  margin: 0px 15px 15px 0px;
+}
+.title-button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.title-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.custom-star-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+.date-appointment {
+  color: #b5b7c4;
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .appointments-item-card {
+    min-width: 100px;
+    margin: 0px 10px 10px 0px;
+  }
+  .title-heading {
+    font-size: 14px;
+  }
+  .date-appointment {
+    font-size: 13px;
+  }
+  .star {
+    width: 15px;
+    height: 15px;
+  }
+}
